@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .logo{
+        
+        display: flex;
+        align-self: center;
+    }
+    .navbar{
+        height: 500px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        text-align: center;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 55px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .button{
+        text-align: center;
+    }
+    .paras{
+        padding: 0px 1px;
+
+    }
+}
